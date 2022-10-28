@@ -1,0 +1,1 @@
+export const getListProducts = state => state.products.listShoppingCart

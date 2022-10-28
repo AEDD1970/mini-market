@@ -1,0 +1,95 @@
+@import "../../styles//colors.scss";
+.wapperHome {
+    margin: 1rem;
+    max-width: 100vw;
+
+    >h1 {
+        text-align: center;
+    }
+}
+
+.wrapperListproducts {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+    flex: 3;
+    border-right: 1px solid #bbb;
+}
+
+.headerHome {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+.divider {
+    border-top: 1px solid #bbb;
+}
+
+.contentHome {
+    display: flex;
+    gap: 10px;
+}
+
+.shoppingCartWrapper {
+    flex: 1;
+    ul{
+        margin: 0px;
+        li{
+            list-style: none;
+            margin: 0px;
+        }
+    }
+}
+
+.dividerVertical {
+    background-color: #bbb;
+    width: 1px;
+    height: 100vh;
+}
+
+//add product
+.wapperaddproduct {
+    display: flex;
+}
+
+.productBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    >span{
+        font-size: 34px;  
+    }
+    button {
+        float: right;
+        display: inline-block;
+        height: 50px;
+        width: 176px;
+        margin: 0 40px 0 16px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 60px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #ffffff;
+        background-color: $secondary;
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+.productBtn button:hover {
+    background-color: $primary;
+}
+.wapperlistProdutShopping{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    img{ width: 40px; height: 40px; }
+}
