@@ -31,3 +31,6 @@ Your app is ready to be deployed!
 
 
 install project dependencies
+
+### `node version 16 `
+use in proyyect
